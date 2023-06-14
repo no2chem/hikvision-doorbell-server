@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "es2022",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "strict": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "outDir": "dist",
+      "declaration": true,
+      "jsx": "react",
+      "baseUrl": "types",
+      "typeRoots": ["types"]
+    },
+    "include": ["*.ts", "*.tsx" ],
+    "ts-node": {
+      "esm": true,
+      "experimentalSpecifierResolution": "node"
+    }
+  }
+  
